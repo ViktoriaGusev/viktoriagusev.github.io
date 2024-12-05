@@ -69,8 +69,11 @@
         }
 
         .brand-img {
-            top: -10px;
-            opacity: 0;
-        }
+            opacity: 1 !important; /* Make the image visible */
+            top: 0 !important; /* Reset top positioning to keep the image in view */
+            width: 100px; /* Adjust the size for mobile */
+            height: 100px; /* Adjust the height for mobile */
+            border-radius: 50%; /* Keep the circular shape */
+    }
     }
 }
