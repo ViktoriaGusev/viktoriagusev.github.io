@@ -3366,19 +3366,18 @@ input[type="button"].btn-block {
   opacity: 0;
 }
 
-.collapse:not(.show) {
-  .navbar-nav{
-    .mr-auto{
-      display: none;
-    }
-    .ml-auto{
-      display: none;
-    }
-    .brand{
-      display: unset;
-    }
-  }
+.collapse:not(.show) .navbar-nav .mr-auto {
+  display: none;
 }
+
+.collapse:not(.show) .navbar-nav .ml-auto {
+  display: none;
+}
+
+.collapse:not(.show) .navbar-nav .brand {
+  display: unset;
+}
+
 
 .collapsing {
   position: relative;
