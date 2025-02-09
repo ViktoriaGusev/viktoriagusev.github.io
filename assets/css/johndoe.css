@@ -3367,7 +3367,16 @@ input[type="button"].btn-block {
 }
 
 .collapse:not(.show) {
-  display: none;
+  .navbar-nav{
+    .mr-auto{
+      display: none;
+    }
+    .ml-auto{
+      display: none;
+    }
+    .brand{
+      display: unset;
+  }
 }
 
 .collapsing {
