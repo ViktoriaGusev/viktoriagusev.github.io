@@ -3366,17 +3366,10 @@ input[type="button"].btn-block {
   opacity: 0;
 }
 
-.collapse:not(.show) .navbar-nav .mr-auto {
+.collapse:not(.show){
   display: none;
 }
 
-.collapse:not(.show) .navbar-nav .ml-auto {
-  display: none;
-}
-
-.collapse:not(.show) .navbar-nav .brand {
-  display: unset;
-}
 
 
 .collapsing {
